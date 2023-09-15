@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/2d7eb0f2be.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar flex"     id="navbar">
+        <img id="personal-photo" src="./images/photo_2023-09-13_15-06-50.jpg" alt="my personal photo">
+        <ul class="list flex">
+            <li class="about"><a href="#welcome-section" class="nav-link">About</a></li>
+            <li class="work"><a href="#projects" class="nav-link">Work</a></li>
+            <li class="contact"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="page-section flex" id="welcome-section">
+        <h1 class="header">Hey, I am Fyodor</h1>
+        <p class="description" id="head-description">a system administrator</p>
+        <article id="about_me">
+            <p class="text">
+                I am an aspiring web developer on a journey of continuous learning and skill refinement. My path began with web design and has been steadily expanding to encompass frontend, backend, and database development, with the ultimate goal of becoming a full-stack developer. 
+            </p>
+            <p class="text-title">Experience and Skills:</p>
+            <p class="text">
+                <strong class="text-subtitle">Programming Languages:</strong> Proficient in C++, providing me with a deep understanding of the language and the ability to develop and enhance code effectively.
+                
+                <strong class="text-subtitle">Web Development:</strong> Actively exploring frontend and backend development, aiming to create seamless user-server interactions.
+                
+                <strong class="text-subtitle">Tools:</strong> Professionally use Git for version control and Linux Ubuntu as an additional development platform, considering the terminal as my primary development environment.
+                
+                <strong class="text-subtitle">Code Cleanliness:</strong> Committed to maintaining clean code structure and architecture, recognizing it as the foundation for successful projects.
+            </p>
+            <!-- <p class="text-title">Personal NFT Project:</p>
+            <p class="text">
+                Creation and promotion of tokens within my NFT community.
+                Development of educational materials and the establishment of a welcoming environment on the Discord server for the "Researchers" community.
+            </p> -->
+        </article>
+    </section>
+
+    <section class="page-section flex" id="projects">
+        <h2 class="header">These are some of my projects</h2>
+        <hr>
+        <div class="projects-grid">
+            <a href="./projects/Survey-form/index.html" class="project project-tile" target="_blank">
+                <img src="./images/Survey_form.png" alt="Survey Form project" class="project-image">
+                <p class="project-title"><span class="code">< </span>Survey Form<span class="code"> /></span></p>
+            </a>
+            <a href="./projects/Tribute-Page/index.html" class="project project-tile" target="_blank">
+                <img src="./images/Tribute.png" alt="Tribute Page project" class="project-image">
+                <p class="project-title"><span class="code">< </span>Tribute Page<span class="code"> /></span></p>
+            </a>
+            <a href="./projects/Technical-Documentation-Page/index.html" class="project project-tile" target="_blank">
+                <img src="./images/Technical_documentation.png" alt="Technical Documentation Page project" class="project-image">
+                <p class="project-title"><span class="code">< </span>Technical Documentation Page<span class="code"> /></span></p>
+            </a>
+            <a href="./projects/Product-Landing-Page/index.html" class="project project-tile" target="_blank">
+                <img src="./images/Product_landing.png" alt="Product Landing Page project" class="project-image">
+                <p class="project-title"><span class="code">< </span>Product Landing Page<span class="code"> /></span></p>
+            </a>
+            <a href="https://instagram.com/matrix_nexus" class="project project-tile" target="_blank">
+                <img src="./images/Matrix_Nexus.png" alt="Matrix Nexus project" class="project-image">
+                <p class="project-title"><span class="code">$ </span>Matrix Nexus NFT Community<span class="code"> $</span></p>
+            </a>
+        </div>
+    </section>
+
+    <section class="page-section flex" id="contact">
+        <div class="contact-section-header">
+            <h1 class="header">Let's work together...</h1>
+            <p class="description">How do you take your coffee?</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://telegram.org/prozaikk" target="_blank" class="contact-icons"><i class="fa-brands fa-telegram"></i> Telegram</a>
+            <a href="https://instagram.com/prozzaikk" target="_blank" class="contact-icons"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://wa.me/+77754448419" target="_blank" class="contact-icons"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+            <a href="https://github.com/Prozzaikk" target="_blank" class="contact-icons" id="profile-link"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="tel:+7-775-444-84-19" target="_blank" class="contact-icons"><i class="fa-solid fa-mobile"></i> Call me</a>
+            <a href="mailto:borichevf@gmail.com" target="_blank" class="contact-icons"><i class="fa-solid fa-envelope"></i> Send a mail</a>
+        </div>
+    </section>
+
+    <footer class="flex" id="final">
+        <p><i class="fa-solid fa-laptop-code"></i> Designed and developed by Prozzaikk (Fyodor Borichev)</p>
+    </footer>
+</body>
+</html>

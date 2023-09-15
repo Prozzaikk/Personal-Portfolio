@@ -1,0 +1,81 @@
+* {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333 /*пиздатый серо-черный цвет для шрифта (ахуенный)*/
+}
+
+#main {
+    background-color: #dee1e3;
+    width: 98%;
+    height: 95%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+}
+
+#description {
+    text-align: center;
+}
+
+#img-div {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#image {
+   display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info{
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    margin: 50px 300px;
+}
+
+li {
+    width: 700px;
+    margin: 20px auto;
+    list-style-type: none; /*убирает точки в маркированом списке*/
+}
+
+#cite {
+    width: 500px;
+    margin: 50px auto;
+    font-style: italic;
+}
+
+#cite-text, #cite-caption {
+    color: #5f5d61;
+}
+
+#tribute-link {
+    color: #262763;
+}
+
+#tribute-link:active {
+    color: #706d78;
+}
+
+#wiki-link {
+    margin-bottom: 20px;
+}

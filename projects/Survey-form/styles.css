@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-size: 100% 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1.header {
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+div {
+    margin-bottom: 1.5em;
+}
+
+form {
+    margin: 2rem auto;
+    padding: 40px;
+    background-color: #09152690;
+    height: 153vh;
+    width: 700px;
+    border-radius: 10px;
+}
+
+label {
+    display: block; /*По факту можешь использовать div импакт такой же*/
+    /*margin-top: 10px; Елси не используешь div то эту строчку кода*/
+    margin-bottom: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: unset;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: #58b863;
+    color: #ffffff;
+    border: 1px solid #58b863;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 20px;
+}
