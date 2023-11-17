@@ -116,7 +116,7 @@
 }
 
 .nav-link:hover {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
     color: var(--main-gray);
     transition: 1s;
 }
